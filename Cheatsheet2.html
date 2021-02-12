@@ -42,9 +42,34 @@
 <li><code>3.1415</code> : float / float (nombre décimal)</li>
 <li><code>True</code> : bool / boolean (booléen)</li>
 </ul>
+<<<<<<< HEAD
+=======
+<p><strong>Listes</strong></p>
+<pre class=" language-py"><code class="prism  language-py"><span class="token comment"># Déclarer des listes</span>
+ma_liste <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+une_autre_liste <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"beurre"</span><span class="token punctuation">,</span> <span class="token string">"lait"</span><span class="token punctuation">,</span> <span class="token string">"farine"</span><span class="token punctuation">]</span>
+<span class="token comment"># Ajouter à la fin d'une liste </span>
+ma_liste<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token string">"un nouveau truc dans ma liste"</span><span class="token punctuation">)</span>
+<span class="token comment"># Indéxer un élément</span>
+une_autre_liste<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token comment"># = "beurre"</span>
+une_autre_liste<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token comment"># = "lait"</span>
+une_autre_liste<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token comment"># = "farine"</span>
+<span class="token comment"># Changer un élément</span>
+une_autre_liste<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">"oeuf"</span> <span class="token comment"># change "lait" par "oeuf"</span>
+</code></pre>
+>>>>>>> 9aaa50770fa553c8b50d0abe0b4a7675aa5f1a1d
 <p><strong>Boucle for</strong></p>
 <pre class=" language-py"><code class="prism  language-py"><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">:</span>
 	<span class="token comment"># Ton code à répéter</span>
+</code></pre>
+<p>Itérer par index sur une liste :</p>
+<pre class=" language-py"><code class="prism  language-py"><span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>ma_liste<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	element <span class="token operator">=</span> ma_liste<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+	<span class="token comment"># Code à faire pour chaque element dans ma_liste</span>
+</code></pre>
+<p>Itérer par élément sur une liste :</p>
+<pre class=" language-py"><code class="prism  language-py"><span class="token keyword">for</span> element <span class="token keyword">in</span> ma_liste<span class="token punctuation">:</span>
+	<span class="token comment"># Code à faire pour chaque element dans ma_liste</span>
 </code></pre>
 <p><strong>Comparateurs</strong></p>
 <ul>
